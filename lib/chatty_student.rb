@@ -5,16 +5,12 @@ class ChattyStudent < Student
   end
 
         def raise_hand
-                super
-                super
-                super
-                super
-                super
-                   super
-                super
-                super
-                super
-                super
+               counter = 0
+loop do
+    counter += 1 
+        super
+    break if counter >= 10
+end
 
 
         end
