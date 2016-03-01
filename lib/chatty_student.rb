@@ -10,9 +10,12 @@ class ChattyStudent < Student
   end
 
   def raise_hand
-    10.times do |super|
+
+    i = 0
+    while i < 10
       super
-      end
+      i +=1
     end
+  end
 
 end
