@@ -1,3 +1,17 @@
+class Student
+
+  def hello
+    puts "Hey there! I'm so excited to learn stuff."
+  end
+
+  def raise_hand
+    puts "Pick me!"
+  end
+  
+end
+
+#-----------------------------
+
 class ChattyStudent < Student
 
   def hello
@@ -19,3 +33,12 @@ class ChattyStudent < Student
   end
   
 end
+
+#-----------------------------
+
+cs = ChattyStudent.new
+
+cs.hello
+cs.raise_hand
+
+
