@@ -8,9 +8,8 @@ class ChattyStudent < Student
   end
 
   def raise_hand
-    super
-    for times in 0..8
-      puts "Pick me!"
+    for times in 0..9
+      super
     end
   end
 
