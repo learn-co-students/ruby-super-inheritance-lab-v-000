@@ -1,4 +1,4 @@
-class ChattyStudent
+class ChattyStudent < Student
 
 
 def hello
@@ -7,10 +7,9 @@ def hello
 end
 
 def raise_hand
-super
-10.times
-puts "Pick me!"
+  super
+  9.times { puts "Pick me!" }
 end
-end
+
 
 end
