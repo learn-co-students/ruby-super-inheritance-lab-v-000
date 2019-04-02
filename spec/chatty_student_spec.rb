@@ -1,6 +1,6 @@
 require "spec_helper"
 
-puts describe "ChattyStudent" do 
+ describe "ChattyStudent" do
 
   let!(:chatty_student) { ChattyStudent.new }
 
