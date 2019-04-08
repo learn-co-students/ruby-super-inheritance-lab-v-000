@@ -1,4 +1,4 @@
-require_relative "../lib/student.rb"
+# require_relative "../lib/student.rb"
 class ChattyStudent < Student
 
 
