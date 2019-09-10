@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+require_relative "../lib/student.rb"
+require_relative "../lib/chatty_student.rb"
+
+moo = Student.new
+sarah = ChattyStudent.new
+# puts moo.hello
+puts sarah.hello
